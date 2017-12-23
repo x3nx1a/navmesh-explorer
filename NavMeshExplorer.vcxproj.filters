@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0eeb0ae5-f3e2-4334-adeb-e720b68317a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\navmesh">
+      <UniqueIdentifier>{ede4af9d-f70a-492a-958e-b3d600c2ddc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{53a806d4-c060-4e8c-be5c-4ceb7b79f246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{6453b2d5-bd19-448f-a9e7-73e673578f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\gfx">
+      <UniqueIdentifier>{2f21f985-7440-4d3a-bc7c-a2e0563ae0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\gfx\GFX3DFunction">
+      <UniqueIdentifier>{3c8b547b-54a1-4a5e-aa09-71662bc7e9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\gfx\GFX3DFunction\Common">
+      <UniqueIdentifier>{20f7ef32-2e23-4c53-9c9e-121749e18148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\gfx\imgui">
+      <UniqueIdentifier>{efd9710c-544f-4f5b-9d86-b0492179c8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\gfx\GFXMainFrame">
+      <UniqueIdentifier>{00314a86-afb5-4dd9-bf89-349703bfe2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\BSLib">
+      <UniqueIdentifier>{d2097fa3-1b8c-4fe3-9869-77461b2af391}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\Common\d3dapp.h">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\Common\d3dfile.h">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\GFXVideo3d.h">
+      <Filter>src\sdk\gfx\GFX3DFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\imgui_internal.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\stb_rect_pack.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\stb_textedit.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\stb_truetype.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\imconfig.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\imgui.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\imgui\imgui_impl_dx9.h">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavMeshTerrain.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavMesh.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\ObjectList.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavCellTri.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavCell.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavCellQuad.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavEdgeInternal.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavEdge.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavEdgeGlobal.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\CollisionObject.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\_ICell.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\RTNavMeshObj.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\navmesh\NavEdge.h">
+      <Filter>src\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\CMsgHooker.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\Game.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFXMainFrame\GFXMainFrame.h">
+      <Filter>src\sdk\gfx\GFXMainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\BSLib\Obj.h">
+      <Filter>src\sdk\BSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFXMainFrame\ObjChild.h">
+      <Filter>src\sdk\gfx\GFXMainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\BSLib\RuntimeClass.h">
+      <Filter>src\sdk\BSLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFXMainFrame\CMsgHandler.h">
+      <Filter>src\sdk\gfx\GFXMainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\SMsgHooker.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\Common\dxutil.h">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\Common\d3dsettings.h">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\Common\d3denumeration.h">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdk\gfx\GFX3DFunction\Common\d3dutil.h">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MyGui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Client.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Debug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DrawingHelpers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalHelpersThatHaveNoHomeYet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\Common\d3dfile.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\Common\d3dapp.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\GFXVideo3d.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\imgui\imgui_demo.cpp">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\imgui\imgui_draw.cpp">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\imgui\imgui.cpp">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\imgui\imgui_impl_dx9.cpp">
+      <Filter>src\sdk\gfx\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\navmesh\RTNavMeshTerrain.cpp">
+      <Filter>src\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\Game.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFXMainFrame\GFXMainFrame.cpp">
+      <Filter>src\sdk\gfx\GFXMainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\BSLib\Obj.cpp">
+      <Filter>src\sdk\BSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\BSLib\RuntimeClass.cpp">
+      <Filter>src\sdk\BSLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\Common\dxutil.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\Common\d3dsettings.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\Common\d3denumeration.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdk\gfx\GFX3DFunction\Common\d3dutil.cpp">
+      <Filter>src\sdk\gfx\GFX3DFunction\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DllMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawingHelpers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.txt" />
+    <None Include="README_SOURCECODE.txt" />
+  </ItemGroup>
+</Project>

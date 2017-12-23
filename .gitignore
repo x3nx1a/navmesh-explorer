@@ -1,0 +1,10 @@
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Ii]pch/
+*.suo
+*.sdf
+*.opensdf
+lib/dxsdk/Include/
+lib/dxsdk/Lib/
+lib/dxsdk/Samples/
